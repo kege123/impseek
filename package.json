@@ -1,0 +1,27 @@
+{
+  "name": "impseek",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "impseek": "bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files":[
+    "bin"
+  ],
+  "dependencies": {
+    "@types/node": "^18.11.3",
+    "cac": "^6.7.14",
+    "fast-glob": "^3.2.12",
+    "fs-extra": "^10.1.0",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
